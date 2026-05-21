@@ -7,11 +7,11 @@
     return(
         
          <>
-         <div className="mt-15 w-[80%] container mx-auto">
-            <h1>
+         <div className="w-[80%] container mx-auto mt-20">
+            <h1 className="text-2xl font-bold">
                 Shop Groceries on instamart
             </h1>
-                <div className="w-[80%] container mx-auto flex flex-wrap mt-15 ml-38 gap-3"> 
+                <div className="container mx-auto flex flex-nowrap overflow-x-auto mt-5 gap-3"> 
                    {
                    GrocerGridCard.map((FoodData)=><Grocerycard key={FoodData.id} FoodData={FoodData}></Grocerycard>)
                    }

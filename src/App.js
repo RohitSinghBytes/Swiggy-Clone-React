@@ -3,6 +3,7 @@ import ReactDOM, { createRoot } from "react-dom/client";
 import Header from "./Component/Header";
 import FoodOption from "./Component/FoodOption";
 import GroceryOption from "./Component/GroceryOption";
+import DineOption from "./Component/DineOption";
 
 
 
@@ -13,6 +14,7 @@ function App(){
         <Header></Header>
         <FoodOption></FoodOption>
         <GroceryOption></GroceryOption>
+        <DineOption></DineOption>
         
         </>
     )
