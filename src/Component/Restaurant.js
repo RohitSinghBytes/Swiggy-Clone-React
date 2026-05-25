@@ -58,7 +58,7 @@ export default function Restaurant() {
         const proxyServer = "https://cors-anywhere.herokuapp.com/";
         const swiggyAPI =
           "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.6139&lng=77.2090&page_type=DESKTOP_WEB_LISTING";
-
+      
         const response = await fetch(proxyServer + swiggyAPI);
         const data = await response.json();
 
